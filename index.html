@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Desenvolvedor Indie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="menu-fixo">
+        <ul>
+            <li><a href="#sobre" class="btn-menu">Sobre Mim</a></li>
+            <li><a href="#formacao" class="btn-menu">Formação</a></li>
+            <li><a href="#portfolio" class="btn-menu">Portfólio</a></li>
+            <li><a href="#contato" class="btn-menu">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section id="sobre" class="secao secao-destaque">
+        <div class="conteudo-sobre">
+            <img src="avatar.jpg" alt="Meu Avatar Pixel Art" class="avatar">
+            
+            <div class="texto-sobre">
+                <h2>Sobre Mim</h2>
+                <p>Olá! Sou natural do Rio de Janeiro e atualmente moro na região do Norte Fluminense. Sou servidor público concursado na área da saúde há 12 anos, construindo uma carreira sólida baseada em responsabilidade e resolução de problemas diários.</p>
+                <p>Em paralelo à minha carreira pública, nutro uma profunda dedicação pela programação e criação de jogos. Meu grande objetivo é atuar como desenvolvedor indie solo. Minha maior inspiração profissional na área é o desenvolvedor de <em>Stardew Valley</em>, cuja trajetória me motiva a criar experiências imersivas e completas assumindo todas as frentes do projeto.</p>
+                <p>Nas horas vagas, além de estudar desenvolvimento na Unity, gosto muito de cuidar de plantas — atualmente em uma missão especial para manter meus crisântemos vivos e floridos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="formacao" class="secao">
+        <h2>Formação Educacional e Idiomas</h2>
+        <div class="cards-container">
+            <div class="card">
+                <h3>Trajetória Acadêmica</h3>
+                <p>Minha busca por conhecimento sempre foi ampla. Tive passagens por instituições de excelência como a UFF e a UFRJ, onde explorei cursos superiores como História, Enfermagem e Biomedicina.</p>
+                <p>Apesar de não ter concluído essas graduações, a bagagem interdisciplinar adquirida enriqueceu minha visão de mundo. Atualmente, direcionei meu foco acadêmico para a minha verdadeira paixão tecnológica e <strong>curso Jogos Digitais pela UNINTER</strong>.</p>
+            </div>
+            
+            <div class="card">
+                <h3>Idiomas e Ferramentas</h3>
+                <ul>
+                    <li><strong>Inglês:</strong> Avançado (Certificação UBEST). Facilidade para leitura de documentações técnicas, manuais de engines e consumo de tutoriais globais.</li>
+                    <li><strong>Português:</strong> Nativo.</li>
+                    <li class="margin-top-15"><strong>Motor Gráfico Principal:</strong> Unity (C#).</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="secao bg-claro">
+        <h2>Meu Portfólio</h2>
+        <p>Abaixo estão dois dos meus projetos publicados na plataforma Itch.io, desenvolvidos utilizando a engine Unity:</p>
+        
+        <div class="portfolio-grid">
+            <div class="projeto-item">
+                <div class="projeto-header">📱</div>
+                <h3>Palavra Certa</h3>
+                <p>Um jogo mobile focado em raciocínio rápido e vocabulário, com mecânicas inspiradas em sucessos como Termo e Wordle. Desenvolvido na Unity para oferecer uma interface limpa e uma jogabilidade fluida e viciante.</p>
+                <a href="https://botokai.itch.io/palavra-certa" target="_blank" class="btn-acao">Jogar no Itch.io</a>
+            </div>
+
+            <div class="projeto-item">
+                <div class="projeto-header">🐭</div>
+                <h3>Caverna Ratical</h3>
+                <p>Um jogo de plataforma 3D onde o jogador assume o controle de um personagem que precisa escapar de uma caverna repleta de perigos e obstáculos. Projeto focado em <em>level design</em> e movimentação em ambiente tridimensional na Unity.</p>
+                <a href="https://botokai.itch.io/caverna-ratical?secret=dylfct0LJ87yyrw4dNCiDrsoYs" target="_blank" class="btn-acao">Jogar no Itch.io</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="secao">
+        <h2>Contato</h2>
+        <p>Tem interesse em conversar sobre game dev, compartilhar ideias de projetos indie ou dicas de botânica? Preencha o formulário abaixo:</p>
+        
+        <form action="#">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+            
+            <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+        </form>
+    </section>
+
+</body>
+</html>
